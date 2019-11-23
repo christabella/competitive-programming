@@ -1,4 +1,34 @@
 #!/usr/bin/env python
+"""https://cses.fi/320/task/D
+Uolevi wants to buy a plot of land from a nearby forest. The plot must be square-shaped and there has to be exactly x trees on the plot.
+
+How many ways are there to choose a plot?
+
+Input
+
+On the first line there are three integers n, m and x: the height and width of the forest and the required amount of trees.
+
+n lines follow, describing the forest. On each line there are m characters. Character . means empty space and * means a tree.
+
+Output
+
+Output a single integer: the number of ways to choose a plot.
+
+Constraints
+1≤n,m≤2000
+0≤x≤n⋅m
+Examples
+
+Input:
+4 6 3
+..**..
+**....
+*...*.
+..*...
+
+Output:
+3
+"""
 
 
 def get_flat_index(i, j, cols):
